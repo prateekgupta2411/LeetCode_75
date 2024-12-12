@@ -1,6 +1,6 @@
 package Array_String;
 import java.util.Arrays; // Import required for Arrays.toString()
-public class Product_Of_Array_ExceptSelf {
+public class Product_Of_Array_ExceptSelf_Approach1 {
     public static int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int[] result = new int[n];
