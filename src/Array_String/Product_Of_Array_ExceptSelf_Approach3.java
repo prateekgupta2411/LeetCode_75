@@ -2,7 +2,8 @@ package Array_String;
 
 import java.util.Arrays;
 
-public class Product_Of_Array_ExceptSelf_Approach2 {
+public class Product_Of_Array_ExceptSelf_Approach3 {
+    // Two pass Approach Left and Right pass O(n) and space O(1)
     public static int[] productExceptSelf(int[] arr) {
         int n = arr.length;
         int res[] = new int[n];
