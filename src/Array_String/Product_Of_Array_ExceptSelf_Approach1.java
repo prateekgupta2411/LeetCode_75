@@ -1,6 +1,7 @@
 package Array_String;
 import java.util.Arrays;
 public class Product_Of_Array_ExceptSelf_Approach1 {
+    // using division operation
     public static int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int[] ans = new int[n];
