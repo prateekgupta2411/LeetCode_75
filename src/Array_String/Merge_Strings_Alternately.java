@@ -12,17 +12,17 @@ public class Merge_Strings_Alternately {
         StringBuilder sb = new StringBuilder();
         int i = 0;
         int j = 0;
-        boolean flag = true;
+//        boolean flag = true;
         while (i<word1.length() && j<word2.length()){
-            if(flag){
-                sb.append(word1.charAt(i));
-                i++;
-            } else{
-                sb.append(word2.charAt(j));
-                j++;
+//            if(flag){
+                sb.append(word1.charAt(i++));
+//                i++;
+//            } else{
+                sb.append(word2.charAt(j++));
+//                j++;
             }
-            flag = !flag;
-        }
+//            flag = !flag;
+//        }
         while (i<word1.length()){
             sb.append(word1.charAt(i));
             i++;
