@@ -1,6 +1,6 @@
 package Array_String;
 import java.util.Arrays;
-public class Product_Of_Array_ExceptSelf_Approach1 {
+public class Product_Of_Array_ExceptSelf_Approach2 {
     // using division operation Time com -> O(2n) and space -> O(1)
     // Linkedin, Apple, Amazon, Microsoft, Meta
     public static int[] productExceptSelf(int[] nums) {

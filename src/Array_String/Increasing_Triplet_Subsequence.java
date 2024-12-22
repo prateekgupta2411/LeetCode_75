@@ -1,5 +1,6 @@
 package Array_String;
-
+// Time Com -> O(n) and Space -> O(1)
+// Amazon, fb, factset, Walmart
 public class Increasing_Triplet_Subsequence {
     public static boolean increasingTriplet(int[] nums) {
         int n = nums.length;
