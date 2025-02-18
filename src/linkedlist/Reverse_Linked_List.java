@@ -129,41 +129,41 @@ public class Reverse_Linked_List {
         System.out.println("\nAfter Reverse (Iterative):");
         ListNode2 reversedIterative = reverseList(head);
         printList(reversedIterative);
-
-        // Recreate the original list
-        head = new ListNode2(1);
-        head.next = new ListNode2(2);
-        head.next.next = new ListNode2(3);
-        head.next.next.next = new ListNode2(4);
-        head.next.next.next.next = new ListNode2(5);
-
-        // Test the Recursive Approach
-        System.out.println("\nAfter Reverse (Recursive):");
-        ListNode2 reversedRecursive = reverseList1(head);
-        printList(reversedRecursive);
-
-        // Recreate the original list
-        head = new ListNode2(1);
-        head.next = new ListNode2(2);
-        head.next.next = new ListNode2(3);
-        head.next.next.next = new ListNode2(4);
-        head.next.next.next.next = new ListNode2(5);
-
-        // Test the Extra Space Approach
-        System.out.println("\nAfter Reverse (Extra Space):");
-        ListNode2 reversedExtraSpace = reverseListExtraSpace(head);
-        printList(reversedExtraSpace);
-
-        // Recreate the original list
-        head = new ListNode2(1);
-        head.next = new ListNode2(2);
-        head.next.next = new ListNode2(3);
-        head.next.next.next = new ListNode2(4);
-        head.next.next.next.next = new ListNode2(5);
-
-        // Test the Swap Values Approach
-        System.out.println("\nAfter Reverse (Swap Values):");
-        reverseListSwap(head);
-        printList(head);
+//
+//        // Recreate the original list
+//        head = new ListNode2(1);
+//        head.next = new ListNode2(2);
+//        head.next.next = new ListNode2(3);
+//        head.next.next.next = new ListNode2(4);
+//        head.next.next.next.next = new ListNode2(5);
+//
+//        // Test the Recursive Approach
+//        System.out.println("\nAfter Reverse (Recursive):");
+//        ListNode2 reversedRecursive = reverseList1(head);
+//        printList(reversedRecursive);
+//
+//        // Recreate the original list
+//        head = new ListNode2(1);
+//        head.next = new ListNode2(2);
+//        head.next.next = new ListNode2(3);
+//        head.next.next.next = new ListNode2(4);
+//        head.next.next.next.next = new ListNode2(5);
+//
+//        // Test the Extra Space Approach
+//        System.out.println("\nAfter Reverse (Extra Space):");
+//        ListNode2 reversedExtraSpace = reverseListExtraSpace(head);
+//        printList(reversedExtraSpace);
+//
+//        // Recreate the original list
+//        head = new ListNode2(1);
+//        head.next = new ListNode2(2);
+//        head.next.next = new ListNode2(3);
+//        head.next.next.next = new ListNode2(4);
+//        head.next.next.next.next = new ListNode2(5);
+//
+//        // Test the Swap Values Approach
+//        System.out.println("\nAfter Reverse (Swap Values):");
+//        reverseListSwap(head);
+//        printList(head);
     }
 }
