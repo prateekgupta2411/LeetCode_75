@@ -8,7 +8,6 @@ public class Product_Of_Array_ExceptSelf_Approach2 {
         int[] ans = new int[n];
         int totalProduct = 1;
         int zeroCount = 0;
-
         // Step 1: Calculate the total product of all elements and count zeros
         for (int num : nums) {
             if (num != 0) {
@@ -31,7 +30,6 @@ public class Product_Of_Array_ExceptSelf_Approach2 {
                 ans[i] = totalProduct / nums[i];
             }
         }
-
         return ans;
     }
 
